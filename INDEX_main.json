@@ -1,1 +1,32 @@
-
+{
+  "repository": "myrepo",
+  "version": "1.0",
+  "packages": [
+    {
+      "name": "example-package",
+      "version": "1.2.3",
+      "description": "Ein Beispielpaket.",
+      "author": "Max Mustermann",
+      "license": "MIT",
+      "dependencies": {
+        "dependency-package": ">=1.0.0"
+      },
+      "download_url": "https://example.com/packages/example-package-1.2.3.zip",
+      "checksum": "sha256:1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+      "size": 2048,
+      "install_instructions": "Unzip and run setup.exe"
+    },
+    {
+      "name": "another-package",
+      "version": "2.0.0",
+      "description": "Ein anderes Paket.",
+      "author": "Erika Musterfrau",
+      "license": "Apache-2.0",
+      "dependencies": {},
+      "download_url": "https://example.com/packages/another-package-2.0.0.zip",
+      "checksum": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+      "size": 1024,
+      "install_instructions": "Unzip and execute install.sh"
+    }
+  ]
+}
