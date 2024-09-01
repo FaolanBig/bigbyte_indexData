@@ -23,7 +23,8 @@
       "executable": {
         "windows": "example.exe",
         "linux": "example.bin"
-      }
+      },
+      "help": "information about how to run example-package can be found under https://example.com/repos/author/example-package/help"
     },
     {
       "name": "DB-Matcher-v5",
@@ -45,7 +46,8 @@
       "install_instructions": "unzip=DB-Matcher-v5.zip",
       "executable": {
         "windows": "DB-Matcher-v5.exe"
-      }
+      },
+      "help": "information about DB-Matcher-v5 can be found under https://github.com/FaolanBig/DB-Matcher-v5/wiki"
     }
   ]
 }
