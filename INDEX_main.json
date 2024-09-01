@@ -3,41 +3,49 @@
   "version": "1.0.0.0",
   "packages": [
     {
+      "name": "example-package",
+      "version": "1.2.3.4",
+      "description": "this is an example package",
+      "author": "here goes the copyright holder",
+      "copyright": "Copyright (C) <year of copyright> <copyright holder>",
+      "license": "MIT",
+      "dependencies": ["dependency-package_1", "dependency-package_2", "dependency-package_3"],
+      "download_url": {
+        "windows": "https://example.com/repos/author/example-package/releases/tag/windows",
+        "linux": "https://example.com/repos/author/example-package/releases/tag/linux"
+      },
+      "checksum": {
+        "sha256": "abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890"
+      },
+      "size_download_MB": 10,
+      "size_file_MB": 20,
+      "install_instructions": ["unzip=example-package.zip"],
+      "executable": {
+        "windows": "example.exe",
+        "linux": "example.bin"
+      }
+    },
+    {
       "name": "DB-Matcher-v5",
       "version": "5.3.1.4",
       "description": "Easy to use database (Excel) matching program (terminal) written in C# with .NET-Framework using nPoi.",
       "author": "Carl Öttinger (as Faolan Big)",
       "copyright": "Copyright (C) 2024  Carl Öttinger (Carl Oettinger)",
       "license": "AGPL-3.0",
-      "dependencies": {},
-      "download_url": "https://example.com/packages/example-package-1.2.3.zip",
+      "dependencies": [],
       "download_url": {
         "windows": "https://api.github.com/repos/FaolanBig/DB-Matcher-v5/releases/tag/windows",
-        "linux": "https://api.github.com/repos/FaolanBig/DB-Matcher-v5/releases/tag/linux",
+        "linux": "https://api.github.com/repos/FaolanBig/DB-Matcher-v5/releases/tag/linux"
       },
       "checksum": {
-        "sha256": "F39543D1380B1E2015C28D84875914024698D06BD338996CA33F2C864E388AB7",
+        "sha256": "F39543D1380B1E2015C28D84875914024698D06BD338996CA33F2C864E388AB7"
       },
       "size_download_MB": 20,
       "size_file_MB": 20,
       "install_instructions": "unzip=DB-Matcher-v5.zip",
       "executable": {
-        "windows": "DB-Matcher-v5.exe",
-      },
-    },
-    {
-      "name": "another-package",
-      "version": "2.0.0",
-      "description": "Ein anderes Paket.",
-      "author": "Erika Musterfrau",
-      "license": "Apache-2.0",
-      "dependencies": {
-        "dependency-package": ">=1.0.0"
-      },
-      "download_url": "https://example.com/packages/another-package-2.0.0.zip",
-      "checksum": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
-      "size": 1024,
-      "install_instructions": "Unzip and execute install.sh"
+        "windows": "DB-Matcher-v5.exe"
+      }
     }
   ]
 }
