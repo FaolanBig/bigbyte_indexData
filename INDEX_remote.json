@@ -35,8 +35,8 @@
       "license": "AGPL-3.0",
       "dependencies": [],
       "download_url": {
-        "windows": "https://api.github.com/repos/FaolanBig/DB-Matcher-v5/releases/download/tag/windows/DB-Matcher-v5.zip",
-        "linux": "https://api.github.com/repos/FaolanBig/DB-Matcher-v5/releases/download/tag/linux/DB-Matcher-v5.zip"
+        "windows": "https://github.com/FaolanBig/DB-Matcher-v5/releases/download/windows/DB-Matcher-v5.zip",
+        "linux": "https://github.com/FaolanBig/DB-Matcher-v5/releases/download/linux/DB-Matcher-v5.zip"
       },
       "checksum": {
         "sha256": "F39543D1380B1E2015C28D84875914024698D06BD338996CA33F2C864E388AB7"
