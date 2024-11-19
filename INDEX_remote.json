@@ -20,6 +20,10 @@
       "size_download_MB": 10,
       "size_file_MB": 20,
       "install_instructions": ["unzip=example-package.zip"],
+      "install_executable": {
+        "windows": "install.exe",
+        "linux": "install.sh"
+      },
       "executable": {
         "windows": "example.exe",
         "linux": "example.bin"
