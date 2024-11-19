@@ -15,7 +15,8 @@
         "linux": "https://example.com/repos/author/example-package/releases/tag/linux"
       },
       "checksum": {
-        "sha256": "abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890"
+        "sha256": "abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+        "md5sum": "c6779ec2960296ed9a04f08d67f64422"
       },
       "size_download_MB": 10,
       "size_file_MB": 20,
